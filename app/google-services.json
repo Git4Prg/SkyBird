@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "718221470390",
+    "project_id": "ticket-booking-app-b61b3",
+    "storage_bucket": "ticket-booking-app-b61b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718221470390:android:675de9e603cb5cf337d417",
+        "android_client_info": {
+          "package_name": "com.mintshock.ticketbookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANNWOks7rrkgGdq4QJLPi2z09qJEKWF2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
