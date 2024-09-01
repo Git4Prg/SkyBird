@@ -1,14 +1,12 @@
 package com.mintshock.ticketbookingapp.Model;
 
-import android.content.Intent;
-
 import androidx.annotation.NonNull;
 
 import java.io.Serializable;
 
 public class Flight implements Serializable {
     private String airlineLogo;
-    private String airLineName;
+    private String airlineName;
     private String arriveTime;
     private String classSeat;
     private String date;
@@ -40,12 +38,12 @@ public class Flight implements Serializable {
         this.airlineLogo = airlineLogo;
     }
 
-    public String getAirLineName() {
-        return airLineName;
+    public String getAirlineName() {
+        return airlineName;
     }
 
-    public void setAirLineName(String airLineName) {
-        this.airLineName = airLineName;
+    public void setAirlineName(String airlineName) {
+        this.airlineName = airlineName;
     }
 
     public String getArriveTime() {

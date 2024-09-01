@@ -15,6 +15,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="120dp"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -29,8 +30,8 @@
                     android:id="@+id/imageView18"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/world"/>
-                
+                    app:srcCompat="@drawable/world" />
+
                 <ImageView
                     android:id="@+id/backButton"
                     android:layout_width="wrap_content"
@@ -39,7 +40,7 @@
                     android:layout_marginTop="48dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/back"/>
+                    app:srcCompat="@drawable/back" />
 
                 <TextView
                     android:id="@+id/textView19"
@@ -47,12 +48,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Choose Seats"
-                    android:textStyle="bold"
                     android:textColor="@color/white"
                     android:textSize="18sp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/backButton"
                     app:layout_constraintStart_toEndOf="@+id/backButton"
-                    app:layout_constraintTop_toTopOf="@id/backButton"/>
+                    app:layout_constraintTop_toTopOf="@id/backButton" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
